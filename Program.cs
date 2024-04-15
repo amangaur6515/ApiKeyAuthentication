@@ -34,7 +34,7 @@ namespace ApiKeyAuthentication
 
             //custom middleware to enable api key authentication
             //app.UseMiddleware<ApiKeyMiddleware>();
-
+            
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
